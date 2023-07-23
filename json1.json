@@ -1,0 +1,389 @@
+{
+  "status": "succeeded",
+  "createdDateTime": "2023-06-21T05:48:34Z",
+  "lastUpdatedDateTime": "2023-06-21T05:48:36Z",
+  "analyzeResult": {
+    "apiVersion": "2023-02-28-preview",
+    "modelId": "prebuilt-read",
+    "stringIndexType": "utf16CodeUnit",
+    "content": "Name : Sanjay Sharma Date Of Birth : 1990-01-01 TFN : 898 898 876",
+    "pages": [
+      {
+        "pageNumber": 1,
+        "angle": 0,
+        "width": 8.5,
+        "height": 11,
+        "unit": "inch",
+        "words": [
+          {
+            "content": "Name",
+            "polygon": [
+              0.9885,
+              1.0217,
+              1.3514,
+              1.0217,
+              1.3514,
+              1.184,
+              0.9885,
+              1.1793
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 0,
+              "length": 4
+            }
+          },
+          {
+            "content": ":",
+            "polygon": [
+              1.3801,
+              1.0217,
+              1.4421,
+              1.0217,
+              1.4469,
+              1.184,
+              1.3848,
+              1.184
+            ],
+            "confidence": 0.978,
+            "span": {
+              "offset": 5,
+              "length": 1
+            }
+          },
+          {
+            "content": "Sanjay",
+            "polygon": [
+              1.4756,
+              1.0217,
+              1.8815,
+              1.0217,
+              1.8815,
+              1.184,
+              1.4756,
+              1.184
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 7,
+              "length": 6
+            }
+          },
+          {
+            "content": "Sharma",
+            "polygon": [
+              1.9101,
+              1.0217,
+              2.3924,
+              1.0265,
+              2.3924,
+              1.1793,
+              1.9149,
+              1.184
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 14,
+              "length": 6
+            }
+          },
+          {
+            "content": "Date",
+            "polygon": [
+              0.998,
+              1.3368,
+              1.2846,
+              1.332,
+              1.2846,
+              1.4848,
+              0.998,
+              1.4848
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 21,
+              "length": 4
+            }
+          },
+          {
+            "content": "Of",
+            "polygon": [
+              1.3228,
+              1.332,
+              1.4708,
+              1.332,
+              1.4756,
+              1.4848,
+              1.3228,
+              1.4848
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 26,
+              "length": 2
+            }
+          },
+          {
+            "content": "Birth",
+            "polygon": [
+              1.5042,
+              1.332,
+              1.8051,
+              1.332,
+              1.8051,
+              1.4848,
+              1.5042,
+              1.4848
+            ],
+            "confidence": 0.994,
+            "span": {
+              "offset": 29,
+              "length": 5
+            }
+          },
+          {
+            "content": ":",
+            "polygon": [
+              1.8337,
+              1.332,
+              1.9006,
+              1.3273,
+              1.9006,
+              1.4848,
+              1.8337,
+              1.4848
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 35,
+              "length": 1
+            }
+          },
+          {
+            "content": "1990-01-01",
+            "polygon": [
+              1.934,
+              1.3273,
+              2.6455,
+              1.3273,
+              2.6407,
+              1.4848,
+              1.934,
+              1.4848
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 37,
+              "length": 10
+            }
+          },
+          {
+            "content": "TFN",
+            "polygon": [
+              0.998,
+              1.628,
+              1.2129,
+              1.6328,
+              1.2081,
+              1.7999,
+              0.9933,
+              1.7951
+            ],
+            "confidence": 0.974,
+            "span": {
+              "offset": 48,
+              "length": 3
+            }
+          },
+          {
+            "content": ":",
+            "polygon": [
+              1.2559,
+              1.6328,
+              1.3228,
+              1.6328,
+              1.318,
+              1.7999,
+              1.2559,
+              1.7999
+            ],
+            "confidence": 0.935,
+            "span": {
+              "offset": 52,
+              "length": 1
+            }
+          },
+          {
+            "content": "898",
+            "polygon": [
+              1.3514,
+              1.6376,
+              1.5902,
+              1.6376,
+              1.5902,
+              1.7999,
+              1.3514,
+              1.7999
+            ],
+            "confidence": 0.993,
+            "span": {
+              "offset": 54,
+              "length": 3
+            }
+          },
+          {
+            "content": "898",
+            "polygon": [
+              1.6236,
+              1.6376,
+              1.8576,
+              1.6376,
+              1.8576,
+              1.7999,
+              1.6188,
+              1.7999
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 58,
+              "length": 3
+            }
+          },
+          {
+            "content": "876",
+            "polygon": [
+              1.891,
+              1.6376,
+              2.125,
+              1.6328,
+              2.125,
+              1.7999,
+              1.891,
+              1.7999
+            ],
+            "confidence": 0.995,
+            "span": {
+              "offset": 62,
+              "length": 3
+            }
+          }
+        ],
+        "lines": [
+          {
+            "content": "Name : Sanjay Sharma",
+            "polygon": [
+              0.9837,
+              1.0217,
+              2.3972,
+              1.0217,
+              2.3972,
+              1.1793,
+              0.9837,
+              1.1793
+            ],
+            "spans": [
+              {
+                "offset": 0,
+                "length": 20
+              }
+            ]
+          },
+          {
+            "content": "Date Of Birth : 1990-01-01",
+            "polygon": [
+              0.9933,
+              1.3273,
+              2.6455,
+              1.3225,
+              2.6455,
+              1.48,
+              0.9933,
+              1.4848
+            ],
+            "spans": [
+              {
+                "offset": 21,
+                "length": 26
+              }
+            ]
+          },
+          {
+            "content": "TFN : 898 898 876",
+            "polygon": [
+              0.9742,
+              1.628,
+              2.1393,
+              1.628,
+              2.1346,
+              1.7951,
+              0.9742,
+              1.7904
+            ],
+            "spans": [
+              {
+                "offset": 48,
+                "length": 17
+              }
+            ]
+          }
+        ],
+        "spans": [
+          {
+            "offset": 0,
+            "length": 65
+          }
+        ],
+        "kind": "document"
+      }
+    ],
+    "paragraphs": [
+      {
+        "spans": [
+          {
+            "offset": 0,
+            "length": 65
+          }
+        ],
+        "boundingRegions": [
+          {
+            "pageNumber": 1,
+            "polygon": [
+              0.9742,
+              1.0217,
+              2.6455,
+              1.0217,
+              2.6455,
+              1.7951,
+              0.9742,
+              1.7951
+            ]
+          }
+        ],
+        "content": "Name : Sanjay Sharma Date Of Birth : 1990-01-01 TFN : 898 898 876"
+      }
+    ],
+    "styles": [],
+    "languages": [
+      {
+        "spans": [
+          {
+            "offset": 0,
+            "length": 20
+          }
+        ],
+        "locale": "rhi",
+        "confidence": 1
+      },
+      {
+        "spans": [
+          {
+            "offset": 21,
+            "length": 26
+          }
+        ],
+        "locale": "en",
+        "confidence": 1
+      }
+    ]
+  }
+}

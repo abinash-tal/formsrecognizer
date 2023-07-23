@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">PII checker</h1>
+    <p>
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" name="file" />
+            <input type="submit" value="Upload" />  
+        </form>
+
+        @ViewData["FileName"]
+    </p>
+</div>

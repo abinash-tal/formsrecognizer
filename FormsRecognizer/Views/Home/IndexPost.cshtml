@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Form Recognizer extracted text";
+}
+
+<div class="text-center">
+    <h2>Form Recognizer extracted text</h2>  
+    <form method="post" action="post-lang-service" enctype="multipart/form-data">
+        <input type="hidden" name="formText" value="@ViewData["FormsRecognzierOutput"]" />
+        <input type="submit" value="Submit for PII detection" />
+    </form>
+    <p>
+        @Html.Raw(ViewData["FormsRecognzierOutput"])
+    </p>
+    
+</div>
